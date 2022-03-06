@@ -1,0 +1,785 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "linea-basic-10";
+  src:url("fonts/linea-basic-10.eot");
+  src:url("fonts/linea-basic-10.eot?#iefix") format("embedded-opentype"),
+    url("fonts/linea-basic-10.woff") format("woff"),
+    url("fonts/linea-basic-10.ttf") format("truetype"),
+    url("fonts/linea-basic-10.svg#linea-basic-10") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "linea-basic-10" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "linea-basic-10" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-basic-accelerator:before {
+  content: "a";
+}
+.icon-basic-alarm:before {
+  content: "b";
+}
+.icon-basic-anchor:before {
+  content: "c";
+}
+.icon-basic-anticlockwise:before {
+  content: "d";
+}
+.icon-basic-archive:before {
+  content: "e";
+}
+.icon-basic-archive-full:before {
+  content: "f";
+}
+.icon-basic-ban:before {
+  content: "g";
+}
+.icon-basic-battery-charge:before {
+  content: "h";
+}
+.icon-basic-battery-empty:before {
+  content: "i";
+}
+.icon-basic-battery-full:before {
+  content: "j";
+}
+.icon-basic-battery-half:before {
+  content: "k";
+}
+.icon-basic-bolt:before {
+  content: "l";
+}
+.icon-basic-book:before {
+  content: "m";
+}
+.icon-basic-book-pen:before {
+  content: "n";
+}
+.icon-basic-book-pencil:before {
+  content: "o";
+}
+.icon-basic-bookmark:before {
+  content: "p";
+}
+.icon-basic-calculator:before {
+  content: "q";
+}
+.icon-basic-calendar:before {
+  content: "r";
+}
+.icon-basic-cards-diamonds:before {
+  content: "s";
+}
+.icon-basic-cards-hearts:before {
+  content: "t";
+}
+.icon-basic-case:before {
+  content: "u";
+}
+.icon-basic-chronometer:before {
+  content: "v";
+}
+.icon-basic-clessidre:before {
+  content: "w";
+}
+.icon-basic-clock:before {
+  content: "x";
+}
+.icon-basic-clockwise:before {
+  content: "y";
+}
+.icon-basic-cloud:before {
+  content: "z";
+}
+.icon-basic-clubs:before {
+  content: "A";
+}
+.icon-basic-compass:before {
+  content: "B";
+}
+.icon-basic-cup:before {
+  content: "C";
+}
+.icon-basic-diamonds:before {
+  content: "D";
+}
+.icon-basic-display:before {
+  content: "E";
+}
+.icon-basic-download:before {
+  content: "F";
+}
+.icon-basic-exclamation:before {
+  content: "G";
+}
+.icon-basic-eye:before {
+  content: "H";
+}
+.icon-basic-eye-closed:before {
+  content: "I";
+}
+.icon-basic-female:before {
+  content: "J";
+}
+.icon-basic-flag1:before {
+  content: "K";
+}
+.icon-basic-flag2:before {
+  content: "L";
+}
+.icon-basic-floppydisk:before {
+  content: "M";
+}
+.icon-basic-folder:before {
+  content: "N";
+}
+.icon-basic-folder-multiple:before {
+  content: "O";
+}
+.icon-basic-gear:before {
+  content: "P";
+}
+.icon-basic-geolocalize-01:before {
+  content: "Q";
+}
+.icon-basic-geolocalize-05:before {
+  content: "R";
+}
+.icon-basic-globe:before {
+  content: "S";
+}
+.icon-basic-gunsight:before {
+  content: "T";
+}
+.icon-basic-hammer:before {
+  content: "U";
+}
+.icon-basic-headset:before {
+  content: "V";
+}
+.icon-basic-heart:before {
+  content: "W";
+}
+.icon-basic-heart-broken:before {
+  content: "X";
+}
+.icon-basic-helm:before {
+  content: "Y";
+}
+.icon-basic-home:before {
+  content: "Z";
+}
+.icon-basic-info:before {
+  content: "0";
+}
+.icon-basic-ipod:before {
+  content: "1";
+}
+.icon-basic-joypad:before {
+  content: "2";
+}
+.icon-basic-key:before {
+  content: "3";
+}
+.icon-basic-keyboard:before {
+  content: "4";
+}
+.icon-basic-laptop:before {
+  content: "5";
+}
+.icon-basic-life-buoy:before {
+  content: "6";
+}
+.icon-basic-lightbulb:before {
+  content: "7";
+}
+.icon-basic-link:before {
+  content: "8";
+}
+.icon-basic-lock:before {
+  content: "9";
+}
+.icon-basic-lock-open:before {
+  content: "!";
+}
+.icon-basic-magic-mouse:before {
+  content: "\"";
+}
+.icon-basic-magnifier:before {
+  content: "#";
+}
+.icon-basic-magnifier-minus:before {
+  content: "$";
+}
+.icon-basic-magnifier-plus:before {
+  content: "%";
+}
+.icon-basic-mail:before {
+  content: "&";
+}
+.icon-basic-mail-multiple:before {
+  content: "'";
+}
+.icon-basic-mail-open:before {
+  content: "(";
+}
+.icon-basic-mail-open-text:before {
+  content: ")";
+}
+.icon-basic-male:before {
+  content: "*";
+}
+.icon-basic-map:before {
+  content: "+";
+}
+.icon-basic-message:before {
+  content: ",";
+}
+.icon-basic-message-multiple:before {
+  content: "-";
+}
+.icon-basic-message-txt:before {
+  content: ".";
+}
+.icon-basic-mixer2:before {
+  content: "/";
+}
+.icon-basic-mouse:before {
+  content: ":";
+}
+.icon-basic-notebook:before {
+  content: ";";
+}
+.icon-basic-notebook-pen:before {
+  content: "<";
+}
+.icon-basic-notebook-pencil:before {
+  content: "=";
+}
+.icon-basic-paperplane:before {
+  content: ">";
+}
+.icon-basic-pencil-ruler:before {
+  content: "?";
+}
+.icon-basic-pencil-ruler-pen:before {
+  content: "@";
+}
+.icon-basic-photo:before {
+  content: "[";
+}
+.icon-basic-picture:before {
+  content: "]";
+}
+.icon-basic-picture-multiple:before {
+  content: "^";
+}
+.icon-basic-pin1:before {
+  content: "_";
+}
+.icon-basic-pin2:before {
+  content: "`";
+}
+.icon-basic-postcard:before {
+  content: "{";
+}
+.icon-basic-postcard-multiple:before {
+  content: "|";
+}
+.icon-basic-printer:before {
+  content: "}";
+}
+.icon-basic-question:before {
+  content: "~";
+}
+.icon-basic-rss:before {
+  content: "\\";
+}
+.icon-basic-server:before {
+  content: "\e000";
+}
+.icon-basic-server2:before {
+  content: "\e001";
+}
+.icon-basic-server-cloud:before {
+  content: "\e002";
+}
+.icon-basic-server-download:before {
+  content: "\e003";
+}
+.icon-basic-server-upload:before {
+  content: "\e004";
+}
+.icon-basic-settings:before {
+  content: "\e005";
+}
+.icon-basic-share:before {
+  content: "\e006";
+}
+.icon-basic-sheet:before {
+  content: "\e007";
+}
+.icon-basic-sheet-multiple:before {
+  content: "\e008";
+}
+.icon-basic-sheet-pen:before {
+  content: "\e009";
+}
+.icon-basic-sheet-pencil:before {
+  content: "\e00a";
+}
+.icon-basic-sheet-txt:before {
+  content: "\e00b";
+}
+.icon-basic-signs:before {
+  content: "\e00c";
+}
+.icon-basic-smartphone:before {
+  content: "\e00d";
+}
+.icon-basic-spades:before {
+  content: "\e00e";
+}
+.icon-basic-spread:before {
+  content: "\e00f";
+}
+.icon-basic-spread-bookmark:before {
+  content: "\e010";
+}
+.icon-basic-spread-text:before {
+  content: "\e011";
+}
+.icon-basic-spread-text-bookmark:before {
+  content: "\e012";
+}
+.icon-basic-star:before {
+  content: "\e013";
+}
+.icon-basic-tablet:before {
+  content: "\e014";
+}
+.icon-basic-target:before {
+  content: "\e015";
+}
+.icon-basic-todo:before {
+  content: "\e016";
+}
+.icon-basic-todo-pen:before {
+  content: "\e017";
+}
+.icon-basic-todo-pencil:before {
+  content: "\e018";
+}
+.icon-basic-todo-txt:before {
+  content: "\e019";
+}
+.icon-basic-todolist-pen:before {
+  content: "\e01a";
+}
+.icon-basic-todolist-pencil:before {
+  content: "\e01b";
+}
+.icon-basic-trashcan:before {
+  content: "\e01c";
+}
+.icon-basic-trashcan-full:before {
+  content: "\e01d";
+}
+.icon-basic-trashcan-refresh:before {
+  content: "\e01e";
+}
+.icon-basic-trashcan-remove:before {
+  content: "\e01f";
+}
+.icon-basic-upload:before {
+  content: "\e020";
+}
+.icon-basic-usb:before {
+  content: "\e021";
+}
+.icon-basic-video:before {
+  content: "\e022";
+}
+.icon-basic-watch:before {
+  content: "\e023";
+}
+.icon-basic-webpage:before {
+  content: "\e024";
+}
+.icon-basic-webpage-img-txt:before {
+  content: "\e025";
+}
+.icon-basic-webpage-multiple:before {
+  content: "\e026";
+}
+.icon-basic-webpage-txt:before {
+  content: "\e027";
+}
+.icon-basic-world:before {
+  content: "\e028";
+}
+#topbar{
+    width: 1000px;
+    margin: auto;
+    height: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('bgg.jpeg');
+    background-size: 100%;
+}
+
+#icon{
+    width: 25px;
+    margin: 11px 15px;
+    float: left;
+}
+.topbar{
+float: left;
+border-left: 1px #cccccc solid;
+height: 100%;
+}
+#text{
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 14px;
+    padding-right: 50px;
+    
+}
+#line{
+    float: left;
+    height: 40px;
+    
+}
+#bell{
+    height: 25px;
+    margin: 9px 8px 0 8px;
+}
+#belldiv{
+    float: left;
+}
+.menu{
+    font-weight: bold;
+    font-size: 90%;
+    padding: 13px 15px 0 15px;
+    height: 27px;
+}
+#arrow{
+    width: 16px;
+    margin-left: 10px;
+}
+#search{
+    background-color: #e4e4e4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px 0 5px 5px;
+    float: left;
+}
+#isearch{
+    height: 27px;
+    margin-top: 5px;
+}
+.clear{
+    clear: both;
+}
+#nextcontainer{
+    background-color: #a91717;
+    width: 100%;
+    height: 70px;
+    border: 1px solid #cccccc;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+    float: left;
+}
+#nextbar{ 
+    width: 1000px;
+    margin: 0 auto;
+}
+#lnews{
+    float: right;
+    border: 1px #bb4545 solid;
+    width: 220px;
+    padding: 5px 5px 0 10px;
+    margin: 5px 10px 0 0;
+    
+}
+#lnews a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: -8px;
+}
+#lnews a:hover{
+    text-decoration: underline;
+}
+#lnews img{
+    height: 40px;
+}
+#bar2container{
+    background-color: #a91717;
+    width: 100%;
+}
+#bar2{
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+#bar2 a{
+    color: white;
+    text-decoration: none ;
+    padding: 0 10px;
+    border-right: 1px solid #bb4545;
+    font-size: 15px;
+    position: relative;
+    top:10px;
+}
+#bar2 a:hover{
+    text-decoration: underline;
+}
+.noborder{
+    border: none!important;
+    padding: 0 !important;
+}
+#darrow{
+    height: 10px;
+    position: relative;
+    top: 10px;
+}
+#pagecontainer{
+    width: 1050px;
+    margin: 0 auto;
+}
+h2{
+    margin: 4em 0 0 4em;
+  font-size: 1rem;
+  width: 25%;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    font-family: cursive;
+    
+}
+h3{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid white;
+}
+h3 a{
+    
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #1167a8;
+}
+#article{
+    color: #5a5a5a;
+    width: 260px;
+    float: left;
+}
+.clock1{
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+.speciallink{
+    text-decoration: none;
+    color:#a91717;
+    border-left: 1px solid #cccccc;
+    padding-left: 8px;
+    margin-left: 3px;
+}
+.speciallink:hover{
+    color: #1167a8;
+}
+#article a:hover{
+    color: #1167a8;
+}
+.others{
+    text-decoration: none;
+    color: #000;
+}
+.m a:hover{
+    color: #1167a8 !important;
+}
+#container1{
+    float: left;
+    width: 650px;
+}
+#asda{
+    width: 400px;
+}
+#hhr{
+    border-top:1px solid #a91717;
+    width: 50px;
+}
+#container1{
+    float: left;
+    padding: 20px;
+    border-right: 1px solid #cccccc ;
+    width: 670px ;
+    padding-right: 30px;
+}
+#thevideos{
+    float: right;
+    border: 1px solid none;
+    margin-left: 20px ;
+    width: 280px;
+}
+h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+.imageclass{
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+}
+.imageclasslink{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.imageclasslink:hover{
+    color: #1167a8;
+}
+.date{
+    padding-right: 10px;
+    color: #5a5a5a;
+}
+.side{
+    float: right;
+    width: 180px;
+    position: relative;
+    top: -18px;
+}
+.borderr{
+    border-right: 1px solid #cccccc;
+}
+.r{
+    margin-right: 150px;
+}
+#e{
+    /*font-weight:2000;
+    border: 1px solid brown;*/
+}
+#i{
+    margin: 0.2em 0 0 8em;
+  width: 25%;
+    font-family: cursive;
+}
+#rightf{
+    float: right;
+    position: relative;
+    margin-top: -450px ;
+}
+#butt{
+    color: black;
+    background-color: black;
+    font-weight: bolder;
+    font-family: cursive;
+    width: 700px;
+    border-radius: 20px;
+    margin:15em 0 0 15em ;
+    position: relative;
+    margin-top: 15px;
+    
+}
+.al{
+    height: 500px;
+    width: 80%;
+    background-image: url('al.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    margin: 30px 10%;
+}
+.tt{
+    font-family: fantasy;
+    width: 80%;
+    margin: 30px 10%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#tta{
+    font-weight:1000 !important;
+    font-size: 45px;
+    margin-left: 300px;
+}
+#pp{
+    height: 300px;
+    border: 1px solid none;
+    width: 81%;
+    margin-left: 10%;
+    margin-right: 90%;
+     ;
+}
+.ppp{
+    height: 300px;
+    width: 270px;
+    margin-right: 20px;
+}
+#aft{
+    height: 700px;
+    width: 100%;
+    background-image: url('pb.png');
+    background-size: cover;
+    @supports ((-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0))) or (-webkit-clip-path: polygon(0 0)) {
+        #aft {
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+          height: 95vh; } }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (min-width: 125em) {
+        #aft {
+          background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(206, 154, 10, 0.8)), to(rgba(180, 91, 40, 0.8))), url(pb.png);
+          background-image: linear-gradient(to right bottom, rgba(206, 154, 10, 0.8), rgba(180, 91, 40, 0.8)), url(pb.png); } }
+      @media only screen and (max-width: 37.5em) {
+        .header {
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+    
+
+}
+#up{
+  position: relative;
+  top: -2070px;
+}

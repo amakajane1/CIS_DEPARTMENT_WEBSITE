@@ -1,0 +1,259 @@
+#topbar{
+  width: 1000px;
+  margin: auto;
+  height: 40px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('bl3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#icon{
+  width: 25px;
+  margin: 11px 15px;
+  float: left;
+}
+.topbar{
+float: left;
+border-left: 1px #cccccc solid;
+height: 100%;
+}
+#text{
+  font-weight: bold;
+  font-size: 90%;
+  position: relative;
+  top: 14px;
+  padding-right: 50px;
+  
+}
+#line{
+  float: left;
+  height: 40px;
+  
+}
+#bell{
+  height: 25px;
+  margin: 9px 8px 0 8px;
+}
+#belldiv{
+  float: left;
+}
+.menu{
+  font-weight: bold;
+  font-size: 90%;
+  padding: 13px 15px 0 15px;
+  height: 27px;
+}
+#arrow{
+  width: 16px;
+  margin-left: 10px;
+}
+#search{
+  background-color: #e4e4e4;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px 0 5px 5px;
+  float: left;
+}
+#isearch{
+  height: 27px;
+  margin-top: 5px;
+}
+.clear{
+  clear: both;
+}
+#nextcontainer{
+  background-color: #116e5a;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #cccccc;
+  border-bottom: none;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 70px;
+  font-weight: 2000;
+  padding-top: 10px;
+  float: left;
+  margin-left: 37%;
+  font-family: cursive;
+}
+#nextbar{ 
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  color:white;
+}
+#lnews{
+  float: right;
+  border: 1px #bb4545 solid;
+  width: 220px;
+  padding: 5px 5px 0 10px;
+  margin: 5px 10px 0 0;
+  
+}
+#lnews a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  top: -8px;
+}
+#lnews a:hover{
+  text-decoration: underline;
+}
+#lnews img{
+  height: 40px;
+}
+#bar2container{
+  margin-top: 0;
+  background-color: #0d6854;
+  width: 100%;
+}
+#bar2{
+  margin-top: 0;
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+#bar2 a{
+  color: white;
+  text-decoration: none ;
+  padding: 0 10px;
+  border-right: 1px solid #bb4545;
+  font-size: 15px;
+  position: relative;
+  top:10px;
+}
+#bar2 a:hover{
+  text-decoration: underline;
+}
+.noborder{
+  border: none!important;
+  padding: 0 !important;
+}
+#darrow{
+  height: 10px;
+  position: relative;
+  top: 10px;
+}
+#pagecontainer{
+  width: 1050px;
+  margin: 0 auto;
+}
+/*h2{
+  margin: 4em 0 0 4em;
+font-size: 1rem;
+width: 25%;
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+  font-family: cursive;*/
+  
+
+#q{
+  font-size: 28px;
+  padding-top: 2px;
+  margin-top: 3px;
+  font-family: cursive;
+  font-weight: 7000;
+  
+}
+.r{
+  margin-right: 150px;
+}
+.p{
+  padding: 50px;
+  justify-content: space-around;
+
+  
+}
+.aa{
+  margin: 6px 10px 6px 70px;
+  border: 1px solid black;
+  height: 400px;
+  border-radius: 40px;
+}
+.tex{
+  width: 100%;
+}
+.tax{
+  margin: 6px 150px 6px 150px;
+
+}
+#bb{
+  margin-top: 150px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 0;
+  text-align: center;
+}
+#cb{
+  background-color: rgb(0, 255, 157);
+  border: 1px solid black;
+  width: 100%;
+  height: 50px;
+}
+#words{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  padding: 25px;
+  margin-top: 15px;
+}
+.footer {
+  background-color: #102c2a;
+  grid-column: full-start / full-end;
+  padding: 8rem; }
+  grid-height: 50px;
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .nav__link:link, .nav__link:visited {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    display: block;
+    -webkit-transition: all .2s;
+    transition: all .2s; }
+  .nav__link:hover, .nav__link:active {
+    background-color: rgba(255, 255, 255, 0.05);
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px); }
+#apic{
+  height: 400px;
+  width: 100%;
+  background-image: url('abird.jpg');
+  background-size: cover;
+}
+.copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-top: 6rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 70%; }
+  #up{
+    position: relative;
+    top: -3420px;
+}
